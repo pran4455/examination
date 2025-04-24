@@ -20,7 +20,6 @@ class LinearRegressionWithSlope():
         self.Y = Y.flatten()  # Flatten Y to a 1D array
         self.n = len(self.Y)  # Number of data points
 
-        # Gradient descent
         for _ in range(self.no_of_itr):
             self.update_weights()
 
